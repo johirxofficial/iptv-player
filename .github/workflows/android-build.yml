@@ -1,8 +1,9 @@
-name: Android APK Build
+```yaml
+name: Auto Android App Builder
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
@@ -13,10 +14,10 @@ jobs:
 
     steps:
 
-      - name: Checkout repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Setup JDK
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -25,11 +26,114 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Generate Gradle Wrapper if missing
+      - name: Generate Full Android Project
         run: |
-          if [ ! -f "gradlew" ]; then
-            gradle wrapper
-          fi
+
+          mkdir -p app/src/main/java/com/iptv/app
+          mkdir -p app/src/main/res/layout
+
+          echo "rootProject.name='IPTVAuto'" > settings.gradle
+          echo "include ':app'" >> settings.gradle
+
+          cat <<EOF > app/build.gradle
+          plugins {
+              id 'com.android.application'
+          }
+
+          android {
+
+              namespace "com.iptv.app"
+              compileSdk 34
+
+              defaultConfig {
+
+                  applicationId "com.iptv.app"
+                  minSdk 21
+                  targetSdk 34
+
+                  versionCode 1
+                  versionName "1.0"
+
+              }
+
+          }
+
+          dependencies {
+
+              implementation 'androidx.appcompat:appcompat:1.6.1'
+              implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
+
+          }
+          EOF
+
+          cat <<EOF > app/src/main/AndroidManifest.xml
+          <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+              package="com.iptv.app">
+
+              <uses-permission android:name="android.permission.INTERNET"/>
+
+              <application
+                  android:label="IPTV Player"
+                  android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
+
+                  <activity android:name=".MainActivity">
+                      <intent-filter>
+                          <action android:name="android.intent.action.MAIN"/>
+                          <category android:name="android.intent.category.LAUNCHER"/>
+                      </intent-filter>
+                  </activity>
+
+              </application>
+
+          </manifest>
+          EOF
+
+          cat <<EOF > app/src/main/res/layout/activity_main.xml
+          <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <TextView
+                  android:text="IPTV Auto Player"
+                  android:textSize="22sp"
+                  android:layout_gravity="center"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+          </FrameLayout>
+          EOF
+
+          cat <<EOF > app/src/main/java/com/iptv/app/MainActivity.java
+          package com.iptv.app;
+
+          import android.os.Bundle;
+          import android.widget.TextView;
+          import androidx.appcompat.app.AppCompatActivity;
+
+          public class MainActivity extends AppCompatActivity {
+
+              @Override
+              protected void onCreate(Bundle savedInstanceState) {
+
+                  super.onCreate(savedInstanceState);
+
+                  TextView tv = new TextView(this);
+                  tv.setText("IPTV Player Ready");
+                  tv.setTextSize(22);
+
+                  setContentView(tv);
+
+              }
+
+          }
+          EOF
+
+          cat <<EOF > gradle.properties
+          android.useAndroidX=true
+          android.enableJetifier=true
+          EOF
+
+          gradle wrapper
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -37,8 +141,9 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug
 
-      - name: Upload APK Artifact
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: IPTV-APK
+          name: iptv-auto-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+```
