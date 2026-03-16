@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Sony Sports 1",
+        "logo": "http://10.11.12.13/assets/images/Sony Sports 11739208823.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/Sony_Sports_1/index.m3u8"
+    },
+    {
+        "name": "MH-Star-Sports2",
+        "logo": "http://10.11.12.13/assets/images/MH-Star-Sports21768142539.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/MH-Star-Sports2/index.m3u8"
+    },
+    {
+        "name": "MH-T-Sports",
+        "logo": "http://10.11.12.13/assets/images/MH-T-Sports1768142461.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/MH-T-Sports/index.m3u8"
+    },
+    {
+        "name": "PTV Sports",
+        "logo": "http://10.11.12.13/assets/images/PTV Sports1759044188.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/PTV/index.m3u8"
+    },
+    {
+        "name": "Star Sports 1",
+        "logo": "http://10.11.12.13/assets/images/Star Sports 11739301257.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/144/index.m3u8"
+    },
+    {
+        "name": "Sony Sports 2",
+        "logo": "http://10.11.12.13/assets/images/Sony Sports 21739301139.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/143/index.m3u8"
+    },
+    {
+        "name": "Redbull",
+        "logo": "http://10.11.12.13/assets/images/Redbull1739298980.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/Redbull/index.m3u8"
+    },
+    {
+        "name": "GTV",
+        "logo": "http://10.11.12.13/assets/images/GTV1739209828.png",
+        "category": "Sports",
+        "stream": "http://10.11.12.13:8089/GTV/index.m3u8"
+    },
+    {
+        "name": "Ekattor TV",
+        "logo": "http://10.11.12.13/assets/images/Ekattor TV1739209745.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/EkattorTV/index.m3u8"
+    },
+    {
+        "name": "Independent",
+        "logo": "http://10.11.12.13/assets/images/Independent1759042870.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/127/index.m3u8"
+    },
+    {
+        "name": "N-News24",
+        "logo": "http://10.11.12.13/assets/images/NOVAS-News241739801789.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/NOVAS-News24/index.m3u8"
+    },
+    {
+        "name": "N-Dipto",
+        "logo": "http://10.11.12.13/assets/images/NOVAS-Dipto1739801595.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/NOVAS-Dipto/index.m3u8"
+    },
+    {
+        "name": "Channel 24",
+        "logo": "http://10.11.12.13/assets/images/Channel 241739302092.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/157/index.m3u8"
+    },
+    {
+        "name": "Jamuna TV",
+        "logo": "http://10.11.12.13/assets/images/Jamuna TV1739210372.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/JamunaTV/index.m3u8"
+    },
+    {
+        "name": "Channel i",
+        "logo": "http://10.11.12.13/assets/images/Channel i1739301095.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/142/index.m3u8"
+    },
+    {
+        "name": "ALJAZEERA_NEWS",
+        "logo": "http://10.11.12.13/assets/images/ALJAZEERA_NEWS1767017451.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/ALJAZEERA_NEWS/index.m3u8"
+    },
+    {
+        "name": "ATN News",
+        "logo": "http://10.11.12.13/assets/images/ATN News1739300490.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/134/index.m3u8"
+    },
+    {
+        "name": "NTV",
+        "logo": "http://10.11.12.13/assets/images/NTV1739299080.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/102/index.m3u8"
+    },
+    {
+        "name": "Somoy TV",
+        "logo": "http://10.11.12.13/assets/images/Somoy TV1739210588.png",
+        "category": "News",
+        "stream": "http://10.11.12.13:8089/SomoyTV/index.m3u8"
+    },
+    {
+        "name": "Discovery-KIDS",
+        "logo": "http://10.11.12.13/assets/images/Discovery-KIDS1767017506.png",
+        "category": "Kids",
+        "stream": "http://10.11.12.13:8089/Discovery-KIDS/index.m3u8"
+    },
+    {
+        "name": "Nick",
+        "logo": "http://10.11.12.13/assets/images/Nick1739210015.png",
+        "category": "Kids",
+        "stream": "http://10.11.12.13:8089/Nick/index.m3u8"
+    },
+    {
+        "name": "Cartoon Network",
+        "logo": "http://10.11.12.13/assets/images/Cartoon Network1767017543.png",
+        "category": "Kids",
+        "stream": "http://10.11.12.13:8089/Cartoon_Network/index.m3u8"
+    },
+    {
+        "name": "Star Plus HD",
+        "logo": "http://10.11.12.13/assets/images/Star Plus HD1767017331.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/Star_Plus_HD/index.m3u8"
+    },
+    {
+        "name": "Sony MAX HD",
+        "logo": "http://10.11.12.13/assets/images/Sony MAX HD1767017157.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/Sony_MAX_HD/index.m3u8"
+    },
+    {
+        "name": "Sony Att",
+        "logo": "http://10.11.12.13/assets/images/Sony Att1767017092.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/SONY_ATT/embed.html"
+    },
+    {
+        "name": "Star Gold",
+        "logo": "http://10.11.12.13/assets/images/Star Gold1739292276.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/108/index.m3u8"
+    },
+    {
+        "name": "Colours HD",
+        "logo": "http://10.11.12.13/assets/images/Colours HD1767016982.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/Colours_HD/index.m3u8"
+    },
+    {
+        "name": "Sony_HD",
+        "logo": "http://10.11.12.13/assets/images/Sony_HD1766934581.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/Sony_HD/index.m3u8"
+    },
+    {
+        "name": "Zee Cinema",
+        "logo": "http://10.11.12.13/assets/images/Zee Cinema1766933993.png",
+        "category": "Hindi",
+        "stream": "http://10.11.12.13:8089/Zee_Cinema/index.m3u8"
+    },
+    {
+        "name": "Star Movies",
+        "logo": "http://10.11.12.13/assets/images/Star Movies1767017226.png",
+        "category": "English",
+        "stream": "http://10.11.12.13:8089/Star_Movies/index.m3u8"
+    },
+    {
+        "name": "ANIMAL_PLANET",
+        "logo": "http://10.11.12.13/assets/images/ANIMAL_PLANET1767017827.png",
+        "category": "English",
+        "stream": "http://10.11.12.13:8089/ANIMAL_PLANET/index.m3u8"
+    },
+    {
+        "name": "Peace TV",
+        "logo": "http://10.11.12.13/assets/images/Peace TV1759045093.png",
+        "category": "Doc",
+        "stream": "http://10.11.12.13:8089/Peace_TV/index.m3u8"
+    },
+    {
+        "name": "N-Global-TV",
+        "logo": "http://10.11.12.13/assets/images/NOVAS-Global-TV1739802276.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/NOVAS-Global-TV/index.m3u8"
+    },
+    {
+        "name": "Nagorik TV",
+        "logo": "http://10.11.12.13/assets/images/Nagorik TV1739301924.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/Nagorik_TV/index.m3u8"
+    },
+    {
+        "name": "Sony Att",
+        "logo": "http://10.11.12.13/assets/images/Sony Att1739301030.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/141/index.m3u8"
+    },
+    {
+        "name": "Jalsa Movies",
+        "logo": "http://10.11.12.13/assets/images/Jalsa Movies1739300573.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/136/index.m3u8"
+    },
+    {
+        "name": "Colours Bangla",
+        "logo": "http://10.11.12.13/assets/images/Colours Bangla1739300532.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/135/index.m3u8"
+    },
+    {
+        "name": "ATN Bangla",
+        "logo": "http://10.11.12.13/assets/images/ATN Bangla1739300427.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/132/index.m3u8"
+    },
+    {
+        "name": "Star Jalsa HD",
+        "logo": "http://10.11.12.13/assets/images/Star Jalsa HD1767017644.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/Star_Jalsa_HD/index.m3u8"
+    },
+    {
+        "name": "Star Jalsa",
+        "logo": "http://10.11.12.13/assets/images/Star Jalsa1739291873.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/114/index.m3u8"
+    },
+    {
+        "name": "Zee Bangla",
+        "logo": "http://10.11.12.13/assets/images/Zee Bangla1739205516.png",
+        "category": "Bangla",
+        "stream": "http://10.11.12.13:8089/ZeeBangla/index.m3u8"
+    }
+]
